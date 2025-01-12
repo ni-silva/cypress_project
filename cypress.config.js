@@ -7,6 +7,8 @@ module.exports = defineConfig({
       on('file:preprocessor', cucumber())
 
     },
-    specPattern: "cypress/e2e/steps/*.feature"
+    specPattern: "cypress/e2e/features/*.feature",
+    chromeWebSecurity: false,
+    blockHosts: ["https://events.backtrace.io"],
   },
 });
