@@ -10,5 +10,6 @@ module.exports = defineConfig({
     specPattern: "cypress/e2e/features/*.feature",
     chromeWebSecurity: false,
     blockHosts: ["https://events.backtrace.io"],
+    baseUrl: "https://www.saucedemo.com",
   },
 });

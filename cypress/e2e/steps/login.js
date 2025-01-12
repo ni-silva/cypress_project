@@ -3,7 +3,7 @@ import { loginElements } from '../elements/login';
 import { products } from '../elements/products';
 
 Given("the website is accessed", () => {
-    cy.visit("https://www.saucedemo.com/");
+    cy.visit('/');
     cy.title(true);
 });
 
