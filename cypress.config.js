@@ -11,5 +11,6 @@ module.exports = defineConfig({
     chromeWebSecurity: false,
     blockHosts: ["https://events.backtrace.io"],
     baseUrl: "https://www.saucedemo.com",
+    experimentalRunAllSpecs: true,
   },
 });
